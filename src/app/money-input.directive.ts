@@ -1,7 +1,7 @@
 import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 
-@Directive({ selector: '[NumbersOnly]' })
-export class NumbersOnly {
+@Directive({ selector: '[MonetaryValue]' })
+export class MonetaryValueDirective {
 
     @Input() allowDecimals: boolean = true;
     @Input() allowSign: boolean = false;
